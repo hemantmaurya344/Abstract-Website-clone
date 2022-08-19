@@ -177,13 +177,34 @@ li{
 .footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+.footer ul{
+    flex-direction: column;
+    padding: 0em;
 }
 .footer h4{
     font-weight: 300;
+    font-size: -0.5em;   
+    margin: 0em 0em 0.5em 0em;
 }
-.footer ul{
+.footer2{
     display: flex;
-    flex-direction: column;
+    font-weight: 200;
+    font-size: 0.1em;
 }
-.footer>2{
+.footer2 h4{
+    font-weight: 300;
+    font-size: -0.5em;   
+    margin: 0em 0em 0.5em 0em;
+}
+.copyright{
+    margin: 10em 0em 1em 5em;
+    
+}
+.copyright h3{
+    font-weight: 500;
+}
+@media screen(max-width:1200px) {
+    
 }
